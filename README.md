@@ -6,26 +6,24 @@
 
 <hr />
 
-A decentralized blogging app that facilitates writers to write user centric blog posts and to create token gated access to their content.
+## Project Name
 
-This project was submitted at [Encode x Polygon Hackathon 2022](https://www.encode.club/polygon-hackathon)
+Pipele
 
-0xWriter main [contract](https://mumbai.polygonscan.com/address/0xeEDc52b142FED56c675D7157f6C7F4f91aad33b0#code) is deployed and verified on polygon mumbai testnet.
+## About Project
 
-## Features
+We are develped a system that allows for true private space and secure data sharing through the use of LitProtocol. An NFT is issued by taking an action on the person with whom you want to share data, and the data can be accessed using that NFT.
+## The problem it is soving
 
-- Write blog posts that are owned only by you.
-- Create, read, update and delete posts.
-- Deploy an ERC20 contract to create token gated access to your blog.
-- All posts are encrypted.
-- Set access control condition - minimum no. of your ERC20 tokens a reader must own to decrypt your content. Setting more conditions will be supported in the future.
-- Writer - can mint their ERC20 tokens, transfer them, set new token price and withdraw their contract balance.
-- Reader - can mint new writer's tokens and transfer them.
-- Set or update your decentralized identity's basic profile - name, description and emoji.
+The data on the blockchain is public available and can be checked by anyone in the world . However, being open to the public means that there is no room for the creation of personal private spacess. Also, while private spaces can be created in DropBox and other places, the data is managed in different parts of the world and is not truly private.
+##Technologies
 
-## Demo
-
-[Youtube](https://youtu.be/ZXcJMdZ59NE)
+## What is Lit Protocol?
+LitProtocol encrypts data (photos, videos, etc.). After encryption, the condition can be set with on-chain data.
+ ・Ownership of specific NFTs
+ ・Ownership of a certain number of ETH
+ ・Smart contract results, etc.
+For example, if a condition for ownership of a particular NFT is set and met, the owner of the NFT will be given the encryption key. This key is used to decrypt encrypted data and access private space.
 
 ## Installation
 
